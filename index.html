@@ -237,6 +237,13 @@
   .ig-tile.teal{background:linear-gradient(135deg, var(--teal), #2c8268);}
   .ig-tile.amber{background:linear-gradient(135deg, var(--amber), #b8791f);}
 
+  .ig-embed-wrap{
+    border-radius:20px; overflow:hidden; border:1px solid var(--line);
+    background:#fff; box-shadow:0 10px 30px rgba(38,35,32,0.06);
+    padding:6px;
+  }
+  .ig-embed-wrap iframe{border-radius:16px; display:block; min-height:340px;}
+
   footer{
     position:relative; z-index:1; padding:40px 0; text-align:center;
     font-size:0.8rem; color:var(--ink-dim); font-family:'DM Mono', monospace;
@@ -377,16 +384,9 @@
         <p>Behind-the-scenes breakdowns of data, AI, and everything in between — bite-sized, and built to click before your coffee cools.</p>
         <a href="https://instagram.com/thedatabarista" target="_blank" class="ig-btn">📷 @thedatabarista</a>
       </div>
-      <div class="ig-grid">
-        <div class="ig-tile purple">Data<br>Analysis</div>
-        <div class="ig-tile teal">Data<br>Science</div>
-        <div class="ig-tile amber">AI</div>
-        <div class="ig-tile teal">Data<br>Science</div>
-        <div class="ig-tile amber">AI</div>
-        <div class="ig-tile purple">Data<br>Analysis</div>
-        <div class="ig-tile amber">AI</div>
-        <div class="ig-tile purple">Data<br>Analysis</div>
-        <div class="ig-tile teal">Data<br>Science</div>
+      <div class="ig-embed-wrap">
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <iframe src="//lightwidget.com/widgets/863720eed69c5c05b6966a9e5e028293.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
       </div>
     </div>
   </div>
